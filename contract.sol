@@ -2,7 +2,7 @@ pragma solidity ^0.4.16;
 
 interface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) external; }
 
-contract KENYASHILLINGDIGITALTETHER {
+contract KENYANSHILLINGDIGITALTETHER {
 
     string public name;
     string public symbol;
@@ -23,7 +23,7 @@ contract KENYASHILLINGDIGITALTETHER {
     ) public {
         totalSupply = 2000000000 * 10 ** uint256(decimals);  
         balanceOf[msg.sender] = totalSupply;               
-        name = "KENYA SHILLING DIGITAL TETHER";                                  
+        name = "KENYAN SHILLING DIGITAL TETHER";                                  
         symbol = "KDT";                               
     }
 
